@@ -1,0 +1,18 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h1>{{authorization?.diagCode}}</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <label for="">Member</label>
+      <p>{{authorization?.member}}</p>
+    </div>
+  </div> 
+  <div class="row">
+    <div class="col-md-6">
+      <a [routerLink]="['/auth-list']" class="btn btn-primary">back</a>  
+    </div>
+  </div> 
+</div> 
